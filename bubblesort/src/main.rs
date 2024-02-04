@@ -16,7 +16,7 @@ fn make_unsorted_arr(n: i16) -> Vec<i32> {
 }
 
 fn bubble_sort(arr: Vec<i32>) -> Vec<i32> {
-    let mut sorted_arr = arr.clone();
+    let mut sorted_arr: Vec<i32> = arr.clone();
     let mut swapped = true;
 
     while swapped {
